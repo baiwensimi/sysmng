@@ -20,6 +20,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 	echo "update this Mac OSX"
 	brew upgrade
 	brew cleanup
+    zsh -ic "omz update"
 elif [[ "$OSTYPE" == "cygwin" ]]; then
 	# POSIX compatibility layer and Linux environment emulation for Windows
 	echo "cygwin"
